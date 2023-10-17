@@ -203,6 +203,8 @@ async function exchangeList(_0x7f59b8, _0x2b7d41) {
   };
   return tryCatchPromise(_0x4b266b => {
     request(_0x3a439d, async (_0x5ed3a1, _0x238419, _0xf3e978) => {
+      console["log"](_0x5ed3a1);
+      console["log"](_0x238419["statusCode"]);
       if (!_0x5ed3a1 && _0x238419["statusCode"] === 200) {
         try {
           const _0x16cf74 = JSON["parse"](_0xf3e978);
