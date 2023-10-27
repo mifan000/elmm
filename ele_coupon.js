@@ -12,11 +12,6 @@
  * 环境变量：threadCount 可以设置多线程抢券，默认 1
  * 环境变量：BEFORE_TIME 提前多少毫秒获取券列表，开始抢券，默认 1000毫秒
  * 环境变量：BETWEEN_TIME 两次抢券时间间隔，默认 200毫秒
- * 建议参数
- * export couponValue="20"
- * export threadCount="1"
- * export BEFORE_TIME="200"
- * export BETWEEN_TIME="250"
  */
 const $ = new Env('饿了么抢券');
 

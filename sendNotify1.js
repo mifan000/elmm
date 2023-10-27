@@ -211,7 +211,7 @@ async function sendNotify(
     text,
     desp,
     params = {},
-    author = '\n\n财哥群专版 慎用',
+    author = '\n\n关注飞机频道：https://t.me/tigerorrose，及时获取脚本更新信息',
 ) {
     //提供6种通知
     if (process.env.pushDesc){
